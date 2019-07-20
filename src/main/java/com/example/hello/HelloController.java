@@ -1,14 +1,15 @@
-package com.example.test;
+package com.example.hello;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class HelloCtroller {
+public class HelloController {
     @RequestMapping("/hello")
     @ResponseBody
-    public String toString() {
+    public String hello() {
         return "hello word";
     }
+
 }
