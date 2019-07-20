@@ -1,3 +1,17 @@
 #端口
 server:
   port: 8081
+
+#yaml配置文件值获取
+person:
+  lastName: zhangsan
+  age: 18
+  boss: false
+  birth: 2018/05/04
+  map: {k1: v1,k2: v2}
+  list:
+    - lisi
+    - good
+  dog:
+    name: moggy
+    age: 2
