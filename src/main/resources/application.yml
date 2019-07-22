@@ -4,7 +4,7 @@ server:
 
 #yaml配置文件值获取
 person:
-  lastName: zhangsan
+  lastName: 李四
   age: 18
   boss: false
   birth: 2018/05/04
